@@ -1,2 +1,2 @@
-run cat set.txt
+run cat tests/test_set1_COMMANDS/set.txt
 quit

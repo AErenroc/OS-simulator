@@ -25,10 +25,16 @@ struct PCB *create_process(const char *filename) {
     // We don't want to allocate PCB until we need one --> first make sure we can open the file.
     FILE *script = fopen(filename, "rt");
     if (!script) {
-        perror("failed to open file for create_process");
+        //perror("failed to open file for create_process");
         return NULL;
     }
+
     struct PCB *pcb = create_process_from_FILE(script);
+    if (!pcb) {
+        perror("failed to create_process");
+        return NULL;
+    }
+
     // Update the pcb name according to the filename we received.
     pcb->name = strdup(filename);
     return pcb;

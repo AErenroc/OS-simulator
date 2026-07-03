@@ -1,4 +1,4 @@
 set a good
 print a
-source set.txt
+source tests/test_set1_COMMANDS/set.txt
 quit

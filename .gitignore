@@ -1,4 +1,10 @@
 .DS_Store
 
+# Makefile output
+mysh
+*.o
 
+
+# Misc
 tests/test_set3_DEMAND_PAGING/README.md
+TODOSTUFF/todo_stuff.md

@@ -9,7 +9,7 @@
 
 // Start of everything
 int main(int argc, char *argv[]) {
-    printf("- - - - - - - - Shell ver 1.0 - - - - - - - -");
+    printf("- - - - - - - - Shell ver 1.0 - - - - - - - -\n");
 
     char prompt = '$';  				// Shell prompt
     char userInput[MAX_USER_INPUT];		// user's input stored here

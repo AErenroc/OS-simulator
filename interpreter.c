@@ -477,7 +477,8 @@ int my_exec(char *args[], int args_size) {
         }
         struct PCB *pcb = create_process(args[n]);
         if (!pcb) {
-            printf("Failed to create process\n");
+            badcommandFileDoesNotExist();
+            //printf("Failed to create process\n");
             goto cleanup;
         }
         policy->enqueue(q, pcb);
