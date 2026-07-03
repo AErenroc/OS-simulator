@@ -1,0 +1,7 @@
+- - - - - - - - Shell ver 1.0 - - - - - - - -
+Unknown Command
+Bad command: File not found
+Bad command: my_mkdir
+Bad command: my_mkdir
+Bad command: my_cd
+Bye!

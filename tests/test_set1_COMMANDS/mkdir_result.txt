@@ -1,0 +1,6 @@
+- - - - - - - - Shell ver 1.0 - - - - - - - -
+Bad command: my_mkdir
+.
+..
+tata
+Bye!

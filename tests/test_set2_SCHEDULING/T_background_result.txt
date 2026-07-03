@@ -1,0 +1,7 @@
+- - - - - - - - Shell ver 1.0 - - - - - - - -
+
+shell
+shell
+short_program
+quit
+Bye!
